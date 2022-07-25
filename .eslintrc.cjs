@@ -16,5 +16,12 @@ module.exports = {
 		browser: true,
 		es2017: true,
 		node: true
+	},
+	rules: {
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/ban-types': 'off',
+		'@typescript-eslint/ban-ts-comment': 'off',
+		'@typescript-eslint/no-non-null-assertion': 'off',
+		'@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }]
 	}
 };
